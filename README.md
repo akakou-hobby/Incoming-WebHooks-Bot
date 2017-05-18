@@ -8,7 +8,7 @@ You can send to slack with Incoming WebHooks !
 This modeule can set to set move your program's directry.
 
 ### requests Modeule
-You must install 'request' module to use this modeule.
+You must install `requests` module to use this modeule.
 Install `pip` and run this command.
 ```shell
 pip install requests
