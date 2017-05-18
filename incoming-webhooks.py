@@ -8,9 +8,9 @@ import json
 class IncomingWebhooks:
     """Incoming webhooks"""
 
-    def __init__(self, url, text, username=u'', icon_emoji=u'', link_names=0):
+    def __init__(self, url='', text=u'', username=u'', icon_emoji=u'', link_names=0):
         """Set Property"""
-        self.url = ''
+        self.url = url
         self.data = json.dumps({
             'text':         text,               # text
             'username':     username,           # user name
