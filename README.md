@@ -36,7 +36,8 @@ import incoming_webhooks
 
 # Property
 url = "https://hooks.slack.com/services/"
-text = "message"
+text = "hello"
+username = "bot"
 icon_emoji = ":+1:"
 link_names = 1
 
