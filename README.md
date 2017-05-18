@@ -31,7 +31,6 @@ bot.send()
 ## Example
 ```python
 # coding:utf-8
-
 import incoming_webhooks
 
 # Property
