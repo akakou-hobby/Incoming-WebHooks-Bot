@@ -1,4 +1,3 @@
-
 # coding:utf-8
 '''This program is class for incoming webhooks'''
 
