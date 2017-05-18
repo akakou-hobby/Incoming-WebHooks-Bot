@@ -20,7 +20,6 @@ class IncomingWebhooks:
 
     def send(self):
         """Send to Slack"""
-        # send
         requests.post(
             self.url,
             self.data
